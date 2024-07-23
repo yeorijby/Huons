@@ -1,0 +1,76 @@
+D:\PROJECT\Daiso_부산_WCS_2018\30.개발\30.개발소스\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.csprojResolveAssemblyReference.cache
+D:\PROJECT\Daiso_부산_WCS_2018\30.개발\30.개발소스\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.Properties.Resources.resources
+D:\PROJECT\Daiso_부산_WCS_2018\30.개발\30.개발소스\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.csproj.GenerateResource.Cache
+D:\PROJECT\Daiso_부산_WCS_2018\30.개발\30.개발소스\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.SYS_MAIN.resources
+D:\PROJECT\Daiso_부산_WCS_2018\30.개발\30.개발소스\TSK_COMM_SC\bin\Debug\TSK_COMM_SC.exe
+D:\PROJECT\Daiso_부산_WCS_2018\30.개발\30.개발소스\TSK_COMM_SC\bin\Debug\TSK_COMM_SC.pdb
+D:\PROJECT\Daiso_부산_WCS_2018\30.개발\30.개발소스\TSK_COMM_SC\bin\Debug\FarPoint.Win.Spread.dll
+D:\PROJECT\Daiso_부산_WCS_2018\30.개발\30.개발소스\TSK_COMM_SC\bin\Debug\FarPoint.Win.dll
+D:\PROJECT\Daiso_부산_WCS_2018\30.개발\30.개발소스\TSK_COMM_SC\bin\Debug\FarPoint.Excel.dll
+D:\PROJECT\Daiso_부산_WCS_2018\30.개발\30.개발소스\TSK_COMM_SC\bin\Debug\FarPoint.PluginCalendar.WinForms.dll
+D:\PROJECT\Daiso_부산_WCS_2018\30.개발\30.개발소스\TSK_COMM_SC\bin\Debug\FarPoint.CalcEngine.dll
+D:\PROJECT\Daiso_부산_WCS_2018\30.개발\30.개발소스\TSK_COMM_SC\bin\Debug\FarPoint.Win.Spread.xml
+D:\PROJECT\Daiso_부산_WCS_2018\30.개발\30.개발소스\TSK_COMM_SC\bin\Debug\FarPoint.Win.xml
+D:\PROJECT\Daiso_부산_WCS_2018\30.개발\30.개발소스\TSK_COMM_SC\bin\Debug\FarPoint.Excel.xml
+D:\PROJECT\Daiso_부산_WCS_2018\30.개발\30.개발소스\TSK_COMM_SC\bin\Debug\FarPoint.PluginCalendar.WinForms.xml
+D:\PROJECT\Daiso_부산_WCS_2018\30.개발\30.개발소스\TSK_COMM_SC\bin\Debug\FarPoint.CalcEngine.xml
+D:\PROJECT\Daiso_부산_WCS_2018\30.개발\30.개발소스\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.exe
+D:\PROJECT\Daiso_부산_WCS_2018\30.개발\30.개발소스\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.pdb
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.exe
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.pdb
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TSK_COMM_SC\bin\Debug\TSK_COMM_SC.exe
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TSK_COMM_SC\bin\Debug\TSK_COMM_SC.pdb
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TSK_COMM_SC\bin\Debug\FarPoint.Win.Spread.dll
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TSK_COMM_SC\bin\Debug\FarPoint.Win.dll
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TSK_COMM_SC\bin\Debug\FarPoint.Excel.dll
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TSK_COMM_SC\bin\Debug\FarPoint.PluginCalendar.WinForms.dll
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TSK_COMM_SC\bin\Debug\FarPoint.CalcEngine.dll
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TSK_COMM_SC\bin\Debug\FarPoint.Win.Spread.xml
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TSK_COMM_SC\bin\Debug\FarPoint.Win.xml
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TSK_COMM_SC\bin\Debug\FarPoint.Excel.xml
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TSK_COMM_SC\bin\Debug\FarPoint.PluginCalendar.WinForms.xml
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TSK_COMM_SC\bin\Debug\FarPoint.CalcEngine.xml
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.csprojResolveAssemblyReference.cache
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.SYS_MAIN.resources
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.Properties.Resources.resources
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.csproj.GenerateResource.Cache
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TASK(서비스x)\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.exe
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TASK(서비스x)\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.pdb
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TASK(서비스x)\TSK_COMM_SC\bin\Debug\TSK_COMM_SC.exe
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TASK(서비스x)\TSK_COMM_SC\bin\Debug\TSK_COMM_SC.pdb
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TASK(서비스x)\TSK_COMM_SC\bin\Debug\FarPoint.Win.Spread.dll
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TASK(서비스x)\TSK_COMM_SC\bin\Debug\FarPoint.Win.dll
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TASK(서비스x)\TSK_COMM_SC\bin\Debug\FarPoint.Excel.dll
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TASK(서비스x)\TSK_COMM_SC\bin\Debug\FarPoint.PluginCalendar.WinForms.dll
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TASK(서비스x)\TSK_COMM_SC\bin\Debug\FarPoint.CalcEngine.dll
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TASK(서비스x)\TSK_COMM_SC\bin\Debug\FarPoint.Win.Spread.xml
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TASK(서비스x)\TSK_COMM_SC\bin\Debug\FarPoint.Win.xml
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TASK(서비스x)\TSK_COMM_SC\bin\Debug\FarPoint.Excel.xml
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TASK(서비스x)\TSK_COMM_SC\bin\Debug\FarPoint.PluginCalendar.WinForms.xml
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TASK(서비스x)\TSK_COMM_SC\bin\Debug\FarPoint.CalcEngine.xml
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TASK(서비스x)\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.csprojResolveAssemblyReference.cache
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TASK(서비스x)\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.SYS_MAIN.resources
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TASK(서비스x)\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.Properties.Resources.resources
+D:\프로젝트\진행중\다이소 WECS(부산)\02. 개발소스\TASK(서비스x)\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\TASK,SIMUL (2)\TASK(서비스x)\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.exe
+C:\Users\Administrator\Desktop\TASK,SIMUL (2)\TASK(서비스x)\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.pdb
+D:\현장자료\다이소(부산)\최종 소스 및 자료\TASK,시뮬\TASK(서비스X),SIMUL (2)\TASK(서비스x)\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.exe
+D:\현장자료\다이소(부산)\최종 소스 및 자료\TASK,시뮬\TASK(서비스X),SIMUL (2)\TASK(서비스x)\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.pdb
+D:\현장자료\다이소(부산)\최종 소스 및 자료\TASK,시뮬\TASK(서비스X),SIMUL (2)\TASK(서비스x)\TSK_COMM_SC\bin\Debug\TSK_COMM_SC.exe
+D:\현장자료\다이소(부산)\최종 소스 및 자료\TASK,시뮬\TASK(서비스X),SIMUL (2)\TASK(서비스x)\TSK_COMM_SC\bin\Debug\TSK_COMM_SC.pdb
+D:\현장자료\다이소(부산)\최종 소스 및 자료\TASK,시뮬\TASK(서비스X),SIMUL (2)\TASK(서비스x)\TSK_COMM_SC\bin\Debug\FarPoint.Win.Spread.dll
+D:\현장자료\다이소(부산)\최종 소스 및 자료\TASK,시뮬\TASK(서비스X),SIMUL (2)\TASK(서비스x)\TSK_COMM_SC\bin\Debug\FarPoint.Win.dll
+D:\현장자료\다이소(부산)\최종 소스 및 자료\TASK,시뮬\TASK(서비스X),SIMUL (2)\TASK(서비스x)\TSK_COMM_SC\bin\Debug\FarPoint.Excel.dll
+D:\현장자료\다이소(부산)\최종 소스 및 자료\TASK,시뮬\TASK(서비스X),SIMUL (2)\TASK(서비스x)\TSK_COMM_SC\bin\Debug\FarPoint.PluginCalendar.WinForms.dll
+D:\현장자료\다이소(부산)\최종 소스 및 자료\TASK,시뮬\TASK(서비스X),SIMUL (2)\TASK(서비스x)\TSK_COMM_SC\bin\Debug\FarPoint.CalcEngine.dll
+D:\현장자료\다이소(부산)\최종 소스 및 자료\TASK,시뮬\TASK(서비스X),SIMUL (2)\TASK(서비스x)\TSK_COMM_SC\bin\Debug\FarPoint.Win.Spread.xml
+D:\현장자료\다이소(부산)\최종 소스 및 자료\TASK,시뮬\TASK(서비스X),SIMUL (2)\TASK(서비스x)\TSK_COMM_SC\bin\Debug\FarPoint.Win.xml
+D:\현장자료\다이소(부산)\최종 소스 및 자료\TASK,시뮬\TASK(서비스X),SIMUL (2)\TASK(서비스x)\TSK_COMM_SC\bin\Debug\FarPoint.Excel.xml
+D:\현장자료\다이소(부산)\최종 소스 및 자료\TASK,시뮬\TASK(서비스X),SIMUL (2)\TASK(서비스x)\TSK_COMM_SC\bin\Debug\FarPoint.PluginCalendar.WinForms.xml
+D:\현장자료\다이소(부산)\최종 소스 및 자료\TASK,시뮬\TASK(서비스X),SIMUL (2)\TASK(서비스x)\TSK_COMM_SC\bin\Debug\FarPoint.CalcEngine.xml
+D:\현장자료\다이소(부산)\최종 소스 및 자료\TASK,시뮬\TASK(서비스X),SIMUL (2)\TASK(서비스x)\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.csprojResolveAssemblyReference.cache
+D:\현장자료\다이소(부산)\최종 소스 및 자료\TASK,시뮬\TASK(서비스X),SIMUL (2)\TASK(서비스x)\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.SYS_MAIN.resources
+D:\현장자료\다이소(부산)\최종 소스 및 자료\TASK,시뮬\TASK(서비스X),SIMUL (2)\TASK(서비스x)\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.Properties.Resources.resources
+D:\현장자료\다이소(부산)\최종 소스 및 자료\TASK,시뮬\TASK(서비스X),SIMUL (2)\TASK(서비스x)\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.csproj.GenerateResource.Cache
+D:\현장자료\롯데정밀화학(울산)\소스\TASK\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.exe
+D:\현장자료\롯데정밀화학(울산)\소스\TASK\TSK_COMM_SC\obj\Debug\TSK_COMM_SC.pdb

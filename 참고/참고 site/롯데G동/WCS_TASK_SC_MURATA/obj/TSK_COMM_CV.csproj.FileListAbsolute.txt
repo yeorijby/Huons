@@ -1,0 +1,204 @@
+D:\imsi\OCI\TSK_COMM_CV\bin\Debug\TSK_COMM_CV.exe
+D:\imsi\OCI\TSK_COMM_CV\bin\Debug\TSK_COMM_CV.pdb
+D:\imsi\OCI\TSK_COMM_CV\obj\Debug\ResolveAssemblyReference.cache
+D:\imsi\OCI\TSK_COMM_CV\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+D:\imsi\OCI\TSK_COMM_CV\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+D:\imsi\OCI\TSK_COMM_CV\obj\Debug\TSK_COMM_CV.exe
+D:\imsi\OCI\TSK_COMM_CV\obj\Debug\TSK_COMM_CV.pdb
+D:\imsi\OCI\TSK_COMM_CV\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+D:\imsi\OCI\02_Program\TSK_COMM_CV\obj\Debug\TSK_COMM_CV.exe
+D:\imsi\OCI\02_Program\TSK_COMM_CV\obj\Debug\TSK_COMM_CV.pdb
+D:\imsi\OCI\02_Program\TSK_COMM_CV\obj\Debug\ResolveAssemblyReference.cache
+D:\imsi\OCI\02_Program\TSK_COMM_CV\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+D:\imsi\OCI\02_Program\TSK_COMM_CV\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+D:\imsi\OCI\02_Program\TSK_COMM_CV\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+D:\imsi\OCI\02_Program\TSK_COMM_CV\bin\Debug\TSK_COMM_CV.exe
+D:\imsi\OCI\02_Program\TSK_COMM_CV\bin\Debug\TSK_COMM_CV.pdb
+D:\imsi\OCI\02_Program\TSK_COMM_CV\obj\Release\ResolveAssemblyReference.cache
+D:\imsi\OCI\02_Program\TSK_COMM_CV\obj\Release\TSK_COMM_CV.SYS_MAIN.resources
+D:\imsi\OCI\02_Program\TSK_COMM_CV\obj\Release\TSK_COMM_CV.Properties.Resources.resources
+D:\imsi\OCI\02_Program\TSK_COMM_CV\obj\Release\TSK_COMM_CV.csproj.GenerateResource.Cache
+D:\imsi\OCI\02_Program\TSK_COMM_CV\bin\Release\TSK_COMM_CV.exe
+D:\imsi\OCI\02_Program\TSK_COMM_CV\bin\Release\TSK_COMM_CV.pdb
+D:\imsi\OCI\02_Program\TSK_COMM_CV\obj\Release\TSK_COMM_CV.exe
+D:\imsi\OCI\02_Program\TSK_COMM_CV\obj\Release\TSK_COMM_CV.pdb
+D:\Samho\Share\20101211\TSK_COMM_CV\obj\Debug\TSK_COMM_CV.exe
+D:\Samho\Share\20101211\TSK_COMM_CV\obj\Debug\TSK_COMM_CV.pdb
+D:\Samho\Share\20101211\TSK_COMM_CV\bin\Debug\TSK_COMM_CV.exe
+D:\Samho\Share\20101211\TSK_COMM_CV\bin\Debug\TSK_COMM_CV.pdb
+D:\Samho\Share\20101211\TSK_COMM_CV\obj\Debug\ResolveAssemblyReference.cache
+D:\Samho\Share\20101211\TSK_COMM_CV\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+D:\Samho\Share\20101211\TSK_COMM_CV\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+D:\Samho\Share\20101211\TSK_COMM_CV\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+D:\Samoh\Share\20101211\_Src\_TSK\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101211\obj\Debug\TSK_COMM_CV.exe
+D:\Samoh\Share\20101211\_Src\_TSK\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101211\obj\Debug\TSK_COMM_CV.pdb
+D:\Samoh\Share\20101211\_Src\_TSK\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101211\obj\Debug\ResolveAssemblyReference.cache
+D:\Samoh\Share\20101211\_Src\_TSK\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101211\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+D:\Samoh\Share\20101211\_Src\_TSK\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101211\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+D:\Samoh\Share\20101211\_Src\_TSK\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101211\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+D:\Samoh\Share\20101211\_Src\_TSK\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101211\bin\Debug\TSK_COMM_CV.exe
+D:\Samoh\Share\20101211\_Src\_TSK\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101211\bin\Debug\TSK_COMM_CV.pdb
+D:\Samoh\Share\20101211\_Src\_TSK\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101211\bin\Debug\log4net.xml
+D:\Samho\Share\20101211\_Src\_TSK\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101211\obj\Debug\TSK_COMM_CV.exe
+D:\Samho\Share\20101211\_Src\_TSK\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101211\obj\Debug\TSK_COMM_CV.pdb
+D:\Samho\Share\20101211\_Src\_TSK\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101211\bin\Debug\TSK_COMM_CV.exe
+D:\Samho\Share\20101211\_Src\_TSK\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101211\bin\Debug\TSK_COMM_CV.pdb
+D:\Samho\Share\20101211\_Src\_TSK\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101211\bin\Debug\log4net.xml
+D:\Samho\Share\20101211\_Src\_TSK\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101211\obj\Debug\ResolveAssemblyReference.cache
+D:\Samho\Share\20101211\_Src\_TSK\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101211\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+D:\Samho\Share\20101211\_Src\_TSK\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101211\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+D:\Samho\Share\20101211\_Src\_TSK\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101211\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+D:\Samho\Share\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101211\obj\Debug\TSK_COMM_CV.exe
+D:\Samho\Share\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101211\obj\Debug\TSK_COMM_CV.pdb
+D:\Samho\Share\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101211\bin\Debug\TSK_COMM_CV.exe
+D:\Samho\Share\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101211\bin\Debug\TSK_COMM_CV.pdb
+D:\Samho\Share\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101211\bin\Debug\log4net.xml
+D:\Samho\Share\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101211\obj\Debug\ResolveAssemblyReference.cache
+D:\Samho\Share\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101211\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+D:\Samho\Share\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101211\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+D:\Samho\Share\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101211\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+D:\OCI\P3\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101211\obj\Debug\TSK_COMM_CV.exe
+D:\OCI\P3\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101211\obj\Debug\TSK_COMM_CV.pdb
+D:\OCI\P3\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101211\bin\Debug\TSK_COMM_CV.exe
+D:\OCI\P3\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101211\bin\Debug\TSK_COMM_CV.pdb
+D:\OCI\P3\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101211\bin\Debug\log4net.xml
+D:\OCI\P3\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101211\obj\Debug\ResolveAssemblyReference.cache
+D:\OCI\P3\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101211\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+D:\OCI\P3\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101211\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+D:\OCI\P3\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101211\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+D:\OCI\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101212\obj\Debug\TSK_COMM_CV.exe
+D:\OCI\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101212\obj\Debug\TSK_COMM_CV.pdb
+D:\OCI\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101212\bin\Debug\TSK_COMM_CV.exe
+D:\OCI\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101212\bin\Debug\TSK_COMM_CV.pdb
+D:\OCI\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101212\bin\Debug\log4net.xml
+D:\OCI\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101212\obj\Debug\ResolveAssemblyReference.cache
+D:\OCI\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101212\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+D:\OCI\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101212\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+D:\OCI\20101211\_Src\_TSK\_PK_TSK\TSK_COMM_CV_20101212\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+D:\OCI\NEW\PK\TSK_COMM_CV\obj\Debug\TSK_COMM_CV.exe
+D:\OCI\NEW\PK\TSK_COMM_CV\obj\Debug\TSK_COMM_CV.pdb
+D:\OCI\NEW\PK\TSK_COMM_CV\bin\Debug\TSK_COMM_CV.exe
+D:\OCI\NEW\PK\TSK_COMM_CV\bin\Debug\TSK_COMM_CV.pdb
+D:\OCI\NEW\PK\TSK_COMM_CV\obj\Debug\ResolveAssemblyReference.cache
+D:\OCI\NEW\PK\TSK_COMM_CV\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+D:\OCI\NEW\PK\TSK_COMM_CV\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+D:\OCI\NEW\PK\TSK_COMM_CV\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+D:\Samho\Share\20101213\_PK_TSK\TSK_COMM_CV_20101213\obj\Debug\TSK_COMM_CV.exe
+D:\Samho\Share\20101213\_PK_TSK\TSK_COMM_CV_20101213\obj\Debug\TSK_COMM_CV.pdb
+D:\Samho\Share\20101213\_PK_TSK\TSK_COMM_CV_20101213\bin\Debug\TSK_COMM_CV.exe
+D:\Samho\Share\20101213\_PK_TSK\TSK_COMM_CV_20101213\bin\Debug\TSK_COMM_CV.pdb
+D:\Samho\Share\20101213\_PK_TSK\TSK_COMM_CV_20101213\obj\Debug\ResolveAssemblyReference.cache
+D:\Samho\Share\20101213\_PK_TSK\TSK_COMM_CV_20101213\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+D:\Samho\Share\20101213\_PK_TSK\TSK_COMM_CV_20101213\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+D:\Samho\Share\20101213\_PK_TSK\TSK_COMM_CV_20101213\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+C:\Documents and Settings\owner\바탕 화면\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214\obj\Debug\TSK_COMM_CV.exe
+C:\Documents and Settings\owner\바탕 화면\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214\obj\Debug\TSK_COMM_CV.pdb
+C:\Documents and Settings\owner\바탕 화면\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\owner\바탕 화면\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+C:\Documents and Settings\owner\바탕 화면\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+C:\Documents and Settings\owner\바탕 화면\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+C:\Documents and Settings\owner\바탕 화면\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214\bin\Debug\TSK_COMM_CV.exe
+C:\Documents and Settings\owner\바탕 화면\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214\bin\Debug\TSK_COMM_CV.pdb
+C:\Documents and Settings\owner\바탕 화면\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214_1\obj\Debug\TSK_COMM_CV.exe
+C:\Documents and Settings\owner\바탕 화면\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214_1\obj\Debug\TSK_COMM_CV.pdb
+C:\Documents and Settings\owner\바탕 화면\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214_1\bin\Debug\TSK_COMM_CV.exe
+C:\Documents and Settings\owner\바탕 화면\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214_1\bin\Debug\TSK_COMM_CV.pdb
+C:\Documents and Settings\owner\바탕 화면\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214_1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\owner\바탕 화면\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214_1\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+C:\Documents and Settings\owner\바탕 화면\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214_1\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+C:\Documents and Settings\owner\바탕 화면\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214_1\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+D:\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214_1\obj\Debug\TSK_COMM_CV.exe
+D:\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214_1\obj\Debug\TSK_COMM_CV.pdb
+D:\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214_1\obj\Debug\ResolveAssemblyReference.cache
+D:\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214_1\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+D:\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214_1\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+D:\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214_1\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+D:\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214_1\bin\Debug\TSK_COMM_CV.exe
+D:\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214_1\bin\Debug\TSK_COMM_CV.pdb
+D:\___테스트폴더___\PACK_TASK\TSK_COMM_CV_20101214_1\bin\Debug\log4net.xml
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101214_1\obj\Debug\TSK_COMM_CV.exe
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101214_1\obj\Debug\TSK_COMM_CV.pdb
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101214_1\bin\Debug\TSK_COMM_CV.exe
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101214_1\bin\Debug\TSK_COMM_CV.pdb
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101214_1\bin\Debug\log4net.xml
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101214_1\obj\Debug\ResolveAssemblyReference.cache
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101214_1\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101214_1\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101214_1\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101215\obj\Debug\TSK_COMM_CV.exe
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101215\obj\Debug\TSK_COMM_CV.pdb
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101215\bin\Debug\TSK_COMM_CV.exe
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101215\bin\Debug\TSK_COMM_CV.pdb
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101215\bin\Debug\log4net.xml
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101215\obj\Debug\ResolveAssemblyReference.cache
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101215\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101215\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101215\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+C:\Documents and Settings\김진환\바탕 화면\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101215\obj\Debug\TSK_COMM_CV.exe
+C:\Documents and Settings\김진환\바탕 화면\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101215\obj\Debug\TSK_COMM_CV.pdb
+C:\Documents and Settings\김진환\바탕 화면\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101215\bin\Debug\TSK_COMM_CV.exe
+C:\Documents and Settings\김진환\바탕 화면\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101215\bin\Debug\TSK_COMM_CV.pdb
+C:\Documents and Settings\김진환\바탕 화면\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101215\bin\Debug\log4net.xml
+C:\Documents and Settings\김진환\바탕 화면\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101215\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\김진환\바탕 화면\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101215\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+C:\Documents and Settings\김진환\바탕 화면\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101215\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+C:\Documents and Settings\김진환\바탕 화면\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101215\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101216\obj\Debug\TSK_COMM_CV.exe
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101216\obj\Debug\TSK_COMM_CV.pdb
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101216\bin\Debug\TSK_COMM_CV.exe
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101216\bin\Debug\TSK_COMM_CV.pdb
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101216\bin\Debug\log4net.xml
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101216\obj\Debug\ResolveAssemblyReference.cache
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101216\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101216\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101216\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101217\obj\Debug\TSK_COMM_CV.exe
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101217\obj\Debug\TSK_COMM_CV.pdb
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101217\bin\Debug\TSK_COMM_CV.exe
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101217\bin\Debug\TSK_COMM_CV.pdb
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101217\bin\Debug\log4net.xml
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101217\obj\Debug\ResolveAssemblyReference.cache
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101217\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101217\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101217\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101222\obj\Debug\TSK_COMM_CV.exe
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101222\obj\Debug\TSK_COMM_CV.pdb
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101222\bin\Debug\TSK_COMM_CV.exe
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101222\bin\Debug\TSK_COMM_CV.pdb
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101222\obj\Debug\ResolveAssemblyReference.cache
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101222\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101222\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\_TSK_COMM_CV_VER\TSK_COMM_CV_20101222\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101222\obj\Debug\TSK_COMM_CV.exe
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101222\obj\Debug\TSK_COMM_CV.pdb
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101222\bin\Debug\TSK_COMM_CV.exe
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101222\bin\Debug\TSK_COMM_CV.pdb
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101222\obj\Debug\ResolveAssemblyReference.cache
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101222\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101222\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101222\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101228\obj\Debug\TSK_COMM_CV.exe
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101228\obj\Debug\TSK_COMM_CV.pdb
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101228\bin\Debug\TSK_COMM_CV.exe
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101228\bin\Debug\TSK_COMM_CV.pdb
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101228\obj\Debug\ResolveAssemblyReference.cache
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101228\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101228\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101228\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101229\obj\Debug\TSK_COMM_CV.exe
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101229\obj\Debug\TSK_COMM_CV.pdb
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101229\bin\Debug\TSK_COMM_CV.exe
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101229\bin\Debug\TSK_COMM_CV.pdb
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101229\obj\Debug\ResolveAssemblyReference.cache
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101229\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101229\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20101229\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20110102\obj\Debug\TSK_COMM_CV.exe
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20110102\obj\Debug\TSK_COMM_CV.pdb
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20110102\bin\Debug\TSK_COMM_CV.exe
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20110102\bin\Debug\TSK_COMM_CV.pdb
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20110102\obj\Debug\ResolveAssemblyReference.cache
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20110102\obj\Debug\TSK_COMM_CV.SYS_MAIN.resources
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20110102\obj\Debug\TSK_COMM_CV.Properties.Resources.resources
+D:\Samoh\Share\00__P2_P3__최종소스저장폴더\01_Src\_P3_TSK\02_TSK_COMM_CV_VER\TSK_COMM_CV_20110102\obj\Debug\TSK_COMM_CV.csproj.GenerateResource.Cache
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
