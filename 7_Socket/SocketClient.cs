@@ -27,6 +27,7 @@ namespace WCS_TASK_SC
         private int _RcvLen;
         public int RcvLen { get { return _RcvLen; } set { _RcvLen = value; } }
 
+        public bool m_bSerialCon = false;
 
 
 
