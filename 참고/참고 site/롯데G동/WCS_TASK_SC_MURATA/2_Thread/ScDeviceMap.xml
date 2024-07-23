@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceMap id="02" EquipType="SC" Format="1" desc="format=>없음:0, SFA SC PLC:1">
+  <CommMethod desc="Ethernet(TCP):1,Ethernet(UDP):2,Serial:3,XCom:4,RFC:5">1</CommMethod>
+  <CPU desc="MelsecQ:1,AB:2,Simens:3,Xgt:4,Fara:5">1</CPU>
+  <AddressArea desc="D:1,R:2">1</AddressArea>
+  <!--DeviceMap Format이 1일때 하위에 Addr는 0으로 표현(Start Addr에서 순차적으로 증가)-->
+  <ReadInfo StartAddr="95" Count="36" desc="하위Node의 type=>Byte(B),Nibble(N),Word(W),bit(b)">
+	  <Word type="W" addr="0" name="RcMode" desc="Online:1, Remote:2"/>
+	  <Word type="W" addr="0" name="PltInfo" desc="부하1(저속-넘어지기쉬운화물):0, 부하2(고속-잘안넘어지는화물):1"/>
+	  <Word type="W" addr="0" name="D97" desc="예비정보"/>
+    <Word type="W" addr="0" name="D98" desc="예비정보"/>
+    <Word type="W" addr="0" name="D99" desc="사용금지"/>
+    <Word type="B" addr="0" name="D100">
+		  <ByteL name="ScMode" desc="Auto:1, Manual:2"/>
+		  <ByteH name="ProdLoad" desc="Fork1화물있음:1, Fork2화물있음:2, Fork12화물있음:3"/>
+	  </Word>
+    <Word type="W" addr="0" name="ScStatus" desc="대기중:1, 동작중:2, 이상:4"/>
+    <Word type="W" addr="0" name="HorizontalPos" desc="주행"/>
+    <Word type="W" addr="0" name="VerticalPos" desc="승강"/>
+    <Word type="B" addr="0" name="D104">
+      <ByteL name="Fork1Pos" desc="Fork#1 좌출:1, Fork#1 우출:2"/>
+      <ByteH name="Fork2Pos" desc="Fork#2 좌출:1, Fork#2 우출:2"/>
+    </Word>
+	  <Word type="W" addr="0" name="ErrorCode" desc="에러코드"/>
+    <Word type="B" addr="0" name="D106" desc="에러상태">
+      <ByteL name="Fork1Status" desc="Fork#1 에러발생재지정Ready:1, Fork#1 이중입고:2, Fork#1 공출고:4"/>
+      <ByteH name="Fork2Status" desc="Fork#2 에러발생재지정Ready:1, Fork#2 이중입고:2, Fork#2 공출고:4"/>
+    </Word>
+    <Word type="W" addr="0" name="ExistHsJob1" desc="CV 작업대 포크 작업 유무"/>
+    <Word type="W" addr="0" name="ExistHsJob2" desc="CV 작업대 포크 작업 유무(이어서)"/>
+    <Word type="W" addr="0" name="RcStatus" desc="Stop:0, Active:1"/>
+    <Word type="W" addr="0" name="JobStatus" desc="작업중:0, Fork#1 완료:1, Fork#2 완료:2, Fork#12 완료:3"/>
+    <Word type="W" addr="0" name="CmdType" desc="작업구분 => 없음:0, 입고:1, 출고:2, 직출고:3, 재배치:4, 홈복귀:5"/>
+    <Word type="W" addr="0" name="LuggNum1"     desc="Fork#1 작업번호"/>
+    <Word type="W" addr="0" name="SoureBank1"   desc="Fork#1 출발 열"/>
+    <Word type="W" addr="0" name="SoureBay1"    desc="Fork#1 출발 행"/>
+    <Word type="W" addr="0" name="SoureLevel1"  desc="Fork#1 출발 단"/>
+    <Word type="W" addr="0" name="SoureStn1"    desc="Fork#1 출발 작업대"/>
+    <Word type="W" addr="0" name="DestBank1"    desc="Fork#1 도착 열"/>
+    <Word type="W" addr="0" name="DestBay1"     desc="Fork#1 도착 행"/>
+    <Word type="W" addr="0" name="DestLevel1"   desc="Fork#1 도착 단"/>
+    <Word type="W" addr="0" name="DestStn1"     desc="Fork#1 도착 작업대"/>
+    <Word type="W" addr="0" name="ForkUse"      desc="포크사용여부 => Fork#1만 사용:0, Fork#2만 사용:1, Fork#12 사용:2"/>
+    <Word type="W" addr="0" name="LuggNum2"     desc="Fork#2 작업번호"/>
+    <Word type="W" addr="0" name="SoureBank2"   desc="Fork#2 출발 열"/>
+    <Word type="W" addr="0" name="SoureBay2"    desc="Fork#2 출발 행"/>
+    <Word type="W" addr="0" name="SoureLevel2"  desc="Fork#2 출발 단"/>
+    <Word type="W" addr="0" name="SoureStn2"    desc="Fork#2 출발 작업대"/>
+    <Word type="W" addr="0" name="DestBank2"    desc="Fork#2 도착 열"/>
+    <Word type="W" addr="0" name="DestBay2"     desc="Fork#2 도착 행"/>
+    <Word type="W" addr="0" name="DestLevel2"   desc="Fork#2 도착 단"/>
+    <Word type="W" addr="0" name="DestStn2"     desc="Fork#2 도착 작업대"/>
+  </ReadInfo>
+  <WriteJob StartAddr="171" Count="22" desc="하위Node의 type=>Byte(B),Nibble(N),Word(W),bit(b)">
+    <Word type="W" addr="0" name="CmdType" desc="작업구분 => 없음:0, 입고:1, 출고:2, 직출고:3, 재배치:4, 홈복귀:5"/>
+    <Word type="W" addr="0" name="LuggNum1"     desc="Fork#1 작업번호"/>
+    <Word type="W" addr="0" name="SoureBank1"   desc="Fork#1 출발 열"/>
+    <Word type="W" addr="0" name="SoureBay1"    desc="Fork#1 출발 행"/>
+    <Word type="W" addr="0" name="SoureLevel1"  desc="Fork#1 출발 단"/>
+    <Word type="W" addr="0" name="SoureStn1"    desc="Fork#1 출발 작업대"/>
+    <Word type="W" addr="0" name="DestBank1"    desc="Fork#1 도착 열"/>
+    <Word type="W" addr="0" name="DestBay1"     desc="Fork#1 도착 행"/>
+    <Word type="W" addr="0" name="DestLevel1"   desc="Fork#1 도착 단"/>
+    <Word type="W" addr="0" name="DestStn1"     desc="Fork#1 도착 작업대"/>
+    <Word type="W" addr="0" name="ForkUse"      desc="포크사용여부 => Fork#1만 사용:0, Fork#2만 사용:1, Fork#12 사용:2"/>
+    <Word type="W" addr="0" name="LuggNum2"     desc="Fork#2 작업번호"/>
+    <Word type="W" addr="0" name="SoureBank2"   desc="Fork#2 출발 열"/>
+    <Word type="W" addr="0" name="SoureBay2"    desc="Fork#2 출발 행"/>
+    <Word type="W" addr="0" name="SoureLevel2"  desc="Fork#2 출발 단"/>
+    <Word type="W" addr="0" name="SoureStn2"    desc="Fork#2 출발 작업대"/>
+    <Word type="W" addr="0" name="DestBank2"    desc="Fork#2 도착 열"/>
+    <Word type="W" addr="0" name="DestBay2"     desc="Fork#2 도착 행"/>
+    <Word type="W" addr="0" name="DestLevel2"   desc="Fork#2 도착 단"/>
+    <Word type="W" addr="0" name="DestStn2"     desc="Fork#2 도착 작업대"/>
+  </WriteJob>
+  <RemoteControl StartAddr="199" Count="1" desc="하위Node의 type=>Byte(B),Nibble(N),Word(W),bit(b)">
+    <Word type="b" addr="0" name="RemoteControl">
+		  <bit0 name="Emergency"/>
+		  <bit1 name="Active"/>
+		  <bit2 name="Stop"/>
+		  <bit3 name="ErrorReset"/>
+		  <bit4 name="Fork#1 DATA 삭제"/>
+		  <bit5 name="Fork#2 DATA 삭제"/>
+		  <bit6 name="Fork#12 DATA 삭제"/>
+		  <bit7 name=""/>
+		  <bit8 name=""/>
+		  <bit9 name=""/>
+		  <bitA name=""/>
+		  <bitB name=""/>
+		  <bitC name=""/>
+		  <bitD name=""/>
+		  <bitE name=""/>
+		  <bitF name=""/>
+	  </Word>
+  </RemoteControl>
+</DeviceMap>
