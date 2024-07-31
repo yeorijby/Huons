@@ -121,7 +121,7 @@ namespace WCS_TASK_SC
         }
         #endregion
         #region Open()
-        public bool Open(ref string strRtnMsg)
+        public bool Open(ref string strRtnMsg, bool bSockConnect = true)
         {
 #if ORACLE
             string strTitle = "[Open]";
@@ -183,14 +183,31 @@ namespace WCS_TASK_SC
                 m_bDBOpen = true;
 
 
-
-                if (!Connect(ref strRtnMsg))
+                if (bSockConnect == true)
                 {
-                    strRtnMsg = strTitle + strRtnMsg;
-                    return false;
-                }
+                    if (!Connect(ref strRtnMsg))
+                    {
+                        strRtnMsg = strTitle + strRtnMsg;
+                        return false;
+                    }
 
-                m_bSocCon = true;
+                    m_bSocCon = true;
+                }
+                //// 일단 시리얼을 여기서 접속할지는 좀더 생각해봐야 할듯!
+                //else
+                //{
+                //    if (!m_frmMain.SerialPort_Open(ref strRtnMsg))
+                //    {
+                //        m_bSerialCon = false;
+
+                //        //SetErrorMsg("Comm" + m_nThNo + " :" + strRtnMsg);
+                //        //MakeMsg_Error(strRtnMsg, m_nThNo);
+                //        //throw new Exception(strRtnMsg);
+                //        return false;
+                //    }
+                //    m_bSerialCon = true;
+                //}
+
                 return true;
 
             }
@@ -221,6 +238,7 @@ namespace WCS_TASK_SC
                     m_bDBOpen = false;
                 }
 
+
                 strRtnMsg = "[Close] DB, Socket Close. Success"; 
             }
             catch (SocketException sex)
@@ -236,10 +254,10 @@ namespace WCS_TASK_SC
         }
         #endregion Close()
         #region READ,WRITE
-
-        public bool CmdReq(string strMsgType, string strData = "", string strResData = "")
+        
+        public bool CmdReq(string strMsgType, ref string strTxBuff, ref byte[] byTxBuff, ref int nLen, string strData = "", string strResData = "")
         {
-            byte[] byTxBuff = new byte[1000];
+            //byte[] byTxBuff = new byte[1000];
 
             Array.Clear(byTxBuff, 0x00, byTxBuff.Length);
 
@@ -254,20 +272,20 @@ namespace WCS_TASK_SC
             byte[] byteSeqNo = StringToByte(cvtvalue);
             byte[] byteMsgType = StringToByte(strMsgType);
 
-            int iii = 0;
-            byTxBuff[iii++] = cDefApp.STX;
+            nLen = 0;       // 초기화
+            byTxBuff[nLen++] = cDefApp.STX;
             if (strMsgType == "000" || strMsgType == "999")
             {
                 foreach (byte b in byteMsgType)
                 {
-                    byTxBuff[iii++] = b;
+                    byTxBuff[nLen++] = b;
                 }
             }
             else
             {
                 foreach (byte bb in byteSeqNo)
                 {
-                    byTxBuff[iii++] = bb;
+                    byTxBuff[nLen++] = bb;
                 }
 
                 // 상태요구 응답 or 에러요구 응답 일경우 아래와 같이 처리 
@@ -275,17 +293,17 @@ namespace WCS_TASK_SC
                 {
                     foreach (byte bbbb in strResData)
                     {
-                        byTxBuff[iii++] = bbbb;
+                        byTxBuff[nLen++] = bbbb;
                     }
-                    //byTxBuff[iii++] = cDefApp.ETX;
-                    //byTxBuff[iii] = MakeBcc(byTxBuff, 1, iii);
+                    //byTxBuff[nLen++] = cDefApp.ETX;
+                    //byTxBuff[nLen] = MakeBcc(byTxBuff, 1, nLen);
                     //return true;        // 여기서 리턴해야함!
                     goto EXIT_LBL;
                 }
 
                 foreach (byte b in byteMsgType)
                 {
-                    byTxBuff[iii++] = b;
+                    byTxBuff[nLen++] = b;
                 }
 
                 if (strMsgType.Substring(0,1) == "B")
@@ -299,33 +317,40 @@ namespace WCS_TASK_SC
 
                     foreach (byte bbb in strData)
                     {
-                        byTxBuff[iii++] = bbb;
+                        byTxBuff[nLen++] = bbb;
                     }
                 }
             }
 
             EXIT_LBL:
             {
-                byTxBuff[iii++] = cDefApp.ETX;
-                byTxBuff[iii] = MakeBcc(byTxBuff, 1, iii);
+                byTxBuff[nLen++] = cDefApp.ETX;
+                byTxBuff[nLen] = MakeBcc(byTxBuff, 1, nLen);
 
                 SndHexString = "";
                 if (IsHex)
                 {
-                    SndHexString = BytesToHexs(byTxBuff, ++iii);
+                    SndHexString = BytesToHexs(byTxBuff, ++nLen);
+                    strTxBuff = SndHexString;
                 }
                 if (IsAscii)
                 {
-                    SndAsciiString = Encoding.Default.GetString(byTxBuff, 0, ++iii);
+                    SndAsciiString = Encoding.Default.GetString(byTxBuff, 0, ++nLen);
+                    strTxBuff = SndAsciiString;
                 }
 
-                Clearbuffer();
-                string msg = "";
-                if (!SendRst(byTxBuff, iii, ref msg))
-                {
-                    SetErrorMsg("Request.. 송신 에러 [" + msg + "]");
-                    return false;
-                }
+                strTxBuff = ByteToString(byTxBuff);
+                strTxBuff = strTxBuff.Substring(0, nLen);
+                //Clearbuffer();
+                //string msg = "";
+
+                ////m_frmMain.SendSerialData(Wrk.mRcvTgm.Trim());
+
+                //if (!SendRst(byTxBuff, iii, ref msg))
+                //{
+                //    SetErrorMsg("Request.. 송신 에러 [" + msg + "]");
+                //    return false;
+                //}
 
                 //return RecvReadAck(nUnitType, 11 + GetDataLength(nUnitType, nReadLen), ref RXBUFF);
 
@@ -339,9 +364,25 @@ namespace WCS_TASK_SC
         // strCmd : StartOn => "D1", Clear => "D2", ReturnHP => "D3", ErrorReset => "D4"
         public bool ReadReqeust(string strCmd, ref byte[] RXBUFF)
         {
-            if (CmdReq(strCmd) == false)
+            // 보낼 메세지 만들기... 
+            int nLen = 0;
+            byte[] byTxBuff = new byte[1000];
+            string strTemp = "";
+            if (CmdReq(strCmd, ref strTemp, ref byTxBuff, ref nLen) == false)
             {
                 //SetErrorMsg("Request.. 송신 에러 [" + msg + "]");         // - 이미 함수 안에서 다 로그 찍음!
+                return false;
+            }
+
+            Clearbuffer();
+            string msg = "";
+
+            //string strTemp = ByteToString(byTxBuff);
+            //m_frmMain.SendSerialData(Wrk.mRcvTgm.Trim());
+
+            if (!SendRst(byTxBuff, nLen, ref msg))
+            {
+                SetErrorMsg("Request.. 송신 에러 [" + msg + "]");
                 return false;
             }
 
@@ -513,12 +554,12 @@ namespace WCS_TASK_SC
 
             return m_nSeqNum++;
         }
-        private byte[] StringToByte(string str)
+        public byte[] StringToByte(string str)
         {
             byte[] bytes = Encoding.Default.GetBytes(str);
             return bytes;
         }
-        private string ByteToString(byte[] bytes)
+        public string ByteToString(byte[] bytes)
         {
             string str = Encoding.Default.GetString(bytes);
             return str;

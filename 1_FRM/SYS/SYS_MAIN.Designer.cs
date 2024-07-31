@@ -835,6 +835,7 @@
             this.chkSerial.TabStop = false;
             this.chkSerial.Text = "Serial 사용";
             this.chkSerial.UseVisualStyleBackColor = true;
+            this.chkSerial.Visible = false;
             this.chkSerial.CheckedChanged += new System.EventHandler(this.chkSerial_CheckedChanged);
             // 
             // SYS_MAIN

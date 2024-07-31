@@ -300,10 +300,7 @@ namespace WCS_TASK_SC
             try
             {
                 MakeMsg_Imp("DB/Socket Connectting", m_nThNo);
-
-                #region Ethernet 사용
-                if (m_frmMain.IsSerial == false)
-                {
+#if SOCKET
                     if (m_msQPlc.m_bSocCon == false && m_msQPlc.m_bDBOpen == false)
                     {
                         // open된 포트개수 만큼 재연결
@@ -362,74 +359,30 @@ namespace WCS_TASK_SC
                         }
                         //Thread.Sleep(5000); 
                     }
-
-                    // Thread.Sleep(5000); //2000
-
-                    if (m_msQPlc.m_bSocCon == true && m_msQPlc.m_bDBOpen == true)
-                    {
-                        IsOpen = true;
-                        MakeMsg_Imp("DB login Ok!", m_nThNo);
-
-                        while (true)
-                        {
-
-                            if (cDefApp.GM_STAT_MAIN == false)
-                            {
-                                throw new Exception("서비스 종료됨");
-                            }
-                            this.m_msQPlc.IsAscii = m_frmMain.IsAscii;
-                            this.m_msQPlc.IsHex = m_frmMain.IsHex;
-
-                            if (!MurataScReadStatus()) goto EXIT_LBL;
-
-                            // 대화상자 명령 - 무라타에서는 대화상자에 대한 명령이 없음! 
-                            // 대화상자로는 삭제만 있는데 삭제는 IO_SCH에서 적용해도 될듯!
-                            //if (!SC_CMD_RQ_YN()) goto EXIT_LBL;
-
-                            // 작업지시명령
-                            // 명령(B1, B2, ...)들을 JOB_TYPE으로 사용함!
-                            if (!MURATA_SC_OD_RQ_YN()) goto EXIT_LBL;
-
-                            Thread.Sleep(200); //2000
-                        }
-                    }
-                }
-                #endregion
-                #region Serial 사용
-                else
+#endif
+#if SERIAL
+                if (m_msQPlc.m_bDBOpen == false)
                 {
-                    if (m_msQPlc.m_bSerialCon == false && m_msQPlc.m_bDBOpen == false)
+                    if (!m_msQPlc.Open(ref m_strRtnMsg, false))
                     {
-                        if (!m_msQPlc.Open(ref m_strRtnMsg))
-                        {
-                            SetErrorMsg("Comm" + m_nThNo + " :" + m_strRtnMsg);
-                            MakeMsg_Error(m_strRtnMsg, m_nThNo);
+                        SetErrorMsg("Comm" + m_nThNo + " :" + m_strRtnMsg);
+                        MakeMsg_Error(m_strRtnMsg, m_nThNo);
 
-                            //DB는 접속 되었는데 설비와 연결이 안되어 있는 경우 LOG남기기
-                            if (m_msQPlc.m_bSocCon == false && m_msQPlc.m_bDBOpen == true)
-                            {
-                                InsertWcsLogPgr("", "[Thread_Doing] 소켓 연결 에러");
-                            }
+                        ////DB는 접속 되었는데 설비와 연결이 안되어 있는 경우 LOG남기기
+                        //if (m_msQPlc.m_bSerialCon == false && m_msQPlc.m_bDBOpen == true)
+                        //{
+                        InsertWcsLogPgr("", "[Thread_Doing] DB 연결 에러");
+                        //}
 
-                            m_msQPlc.Close(ref m_strRtnMsg);
+                        m_msQPlc.Close(ref m_strRtnMsg);
 
-                            m_blConnectYn = false;
+                        m_blConnectYn = false;
 
-                            Thread.Sleep(2000);
-                        }
-                        else
-                        {
-                            // ini에 현재 설정된 포트값 쓰기
-                            string strCOMM = "COMM" + m_nThNo;
-                            cDefApi.WritePrivateProfileString(strCOMM, "CUR_PORT", Convert.ToString("" + m_nCurPort), cDefApp.GM_ENV_INI);
-
-                            //접속 성공 로그 남기기 
-                            InsertWcsLogPgr("", "[Thread_Doing] SC 번호 : " + m_strScNo + ", 연결포트 : " + m_nCurPort + " 접속 성공");
-
-                            //접속이 성공하거나 시도횟수를 OVER하면 빠져나간다.
-                            m_blConnectYn = true;
-                            break;
-                        }
+                        Thread.Sleep(2000);
+                    }
+                    else
+                    {
+                        // DB 연결 성공 시에... => 시리얼 오픈!! 
                         if (!m_frmMain.SerialPort_Open(ref m_strRtnMsg))
                         {
                             m_msQPlc.m_bSerialCon = false;
@@ -438,19 +391,55 @@ namespace WCS_TASK_SC
                             MakeMsg_Error(m_strRtnMsg, m_nThNo);
                             throw new Exception(m_strRtnMsg);
                         }
+
                         m_msQPlc.m_bSerialCon = true;
 
-                    }
 
-                    // 시리얼 + 데이터 베이스 연결 성공
-                    if (m_msQPlc.m_bSerialCon == true && m_msQPlc.m_bDBOpen == true)
-                    {
+                        // ini에 현재 설정된 포트값 쓰기
+                        string strCOMM = "COMM" + m_nThNo;
+                        cDefApi.WritePrivateProfileString(strCOMM, "CUR_PORT", Convert.ToString("" + m_nCurPort), cDefApp.GM_ENV_INI);
 
+                        //접속 성공 로그 남기기 
+                        InsertWcsLogPgr("", "[Thread_Doing] SC 번호 : " + m_strScNo + ", 연결포트 : " + m_nCurPort + " 접속 성공");
+
+                        //접속이 성공하거나 시도횟수를 OVER하면 빠져나간다.
+                        m_blConnectYn = true;
+                        //break;
                     }
                 }
-                #endregion
+#endif
+                #region DB랑 설비가 다 연결 되었을 때 
+                if ((m_msQPlc.m_bSocCon == true || m_msQPlc.m_bSerialCon == true) && 
+                     m_msQPlc.m_bDBOpen == true)
+                {
+                    IsOpen = true;
+                    MakeMsg_Imp("DB login Ok!", m_nThNo);
 
-                EXIT_LBL:
+                    while (true)
+                    {
+
+                        if (cDefApp.GM_STAT_MAIN == false)
+                        {
+                            throw new Exception("서비스 종료됨");
+                        }
+                        this.m_msQPlc.IsAscii = m_frmMain.IsAscii;
+                        this.m_msQPlc.IsHex = m_frmMain.IsHex;
+
+                        if (!MurataScReadStatus()) goto EXIT_LBL;
+
+                        // 대화상자 명령 - 무라타에서는 대화상자에 대한 명령이 없음! 
+                        // 대화상자로는 삭제만 있는데 삭제는 IO_SCH에서 적용해도 될듯!
+                        //if (!SC_CMD_RQ_YN()) goto EXIT_LBL;
+
+                        // 작업지시명령
+                        // 명령(B1, B2, ...)들을 JOB_TYPE으로 사용함!
+                        if (!MURATA_SC_OD_RQ_YN()) goto EXIT_LBL;
+
+                        Thread.Sleep(200); //2000
+                    }
+                }
+            #endregion
+            EXIT_LBL:
                 {
                     SetErrorMsg("CoMM" + m_nThNo + " DB & Socket logoff!");
                     MakeMsg_Imp("DB & Socket logoff!", m_nThNo);
@@ -463,8 +452,13 @@ namespace WCS_TASK_SC
             }
 
             IsOpen = false;
+
             m_msQPlc.Close(ref m_strRtnMsg);
             MakeMsg_Imp(m_strRtnMsg, m_nThNo);
+
+            m_frmMain.SerialPort_Close(ref m_strRtnMsg);
+            MakeMsg_Imp(m_strRtnMsg, m_nThNo);
+
             m_thThread = null;
             m_blConnectYn = false;
         }
@@ -474,6 +468,7 @@ namespace WCS_TASK_SC
         private bool MurataScReadStatus()
         {
             string strTitle = "[MurataScReadStatus]";
+            int nCount = 0;
 
             try
             {
@@ -484,7 +479,52 @@ namespace WCS_TASK_SC
                 MakeMsg(strTitle + "SC 통신", m_nThNo);
 
                 Array.Clear(byRxBuff, 0x00, byRxBuff.Length);
-                if (m_msQPlc.ReadReqeust("A1", ref byRxBuff) == false)
+
+                bool bResult = false;
+
+                //bResult = m_msQPlc.ReadReqeust("A1", ref byRxBuff);
+#if SOCKET
+                bResult = m_msQPlc.ReadReqeust("A1", ref byRxBuff);
+#else
+                // 보낼 메세지 만들기... 
+                int nLen = 0;
+                byte[] byTxBuff = new byte[1000];
+                string strTxMsg = "";
+                if (m_msQPlc.CmdReq("A1", ref strTxMsg, ref byTxBuff, ref nLen) == false)
+                {
+                    //SetErrorMsg("Request.. 송신 에러 [" + msg + "]");         // - 이미 함수 안에서 다 로그 찍음!
+                    return false;
+                }
+                //string strTxMsg = m_msQPlc.ByteToString(byTxBuff);
+
+                //strTxMsg = strTxMsg.Substring(0, nLen);
+                //string strTxMsg = m_msQPlc.ByteToString();
+                // 시리얼로 보내고
+                bResult = m_frmMain.SendSerialData(strTxMsg, ref m_strLogMsg);
+
+                Thread.Sleep(300);
+                string strTemp = "";
+                if (bResult == true && m_frmMain.m_bSerialDataReceived == true)
+                {
+                    nCount = 0;
+                       
+                    for (int iiii = 0; iiii < m_frmMain.m_nSerialMsgCnt; iiii++)
+                    {
+                        strTemp = m_frmMain.m_strSerialMsg[iiii];
+
+                        MakeMsg("Serial Received ... [" + strTemp + "]", m_nThNo);
+                    }
+                    byRxBuff = Encoding.UTF8.GetBytes(strTemp);
+                    --m_frmMain.m_nSerialMsgCnt;
+                    m_frmMain.m_bSerialDataReceived = false;
+
+                    // 받아온것이 있으면 빠져나감
+                    //break;
+                }
+#endif
+
+                // 받아온것 확인하기
+                if (bResult == false)
                 {
                     if (++m_nCnt == 3)
                     {
@@ -506,6 +546,7 @@ namespace WCS_TASK_SC
                     throw new Exception();
                 }
                 m_nCnt = 0;
+
 
                 //설비 통신상태 업데이트(Y)
                 Communication("Y", m_strWh_typ, m_strEqmtTyp, m_strPlc_No);
